@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jln.wguprogresstracker">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_school_black_24dp"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_school_black_24dp"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.jln.wguprogresstracker.Activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.jln.wguprogresstracker.Activity.AddTermActivity"
+            android:label="@string/title_activity_add_term"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.jln.wguprogresstracker.Activity.Terms"
+            android:label="@string/title_activity_terms"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.jln.wguprogresstracker.Activity.Mentors"
+            android:label="@string/title_activity_mentors"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.jln.wguprogresstracker.Activity.AddMentorActivity"
+            android:label="@string/title_activity_add_mentor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.jln.wguprogresstracker.Activity.Courses"
+            android:label="@string/title_activity_courses"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.jln.wguprogresstracker.Activity.Assessments"
+            android:label="@string/title_activity_assessments"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.jln.wguprogresstracker.Activity.AddCourse"
+            android:label="@string/title_activity_add_course"
+            android:taskAffinity=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.jln.wguprogresstracker.Activity.AddAssessment"
+            android:label="@string/title_activity_add_assessment"
+            android:taskAffinity=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.jln.wguprogresstracker.Activity.CourseAssessments"
+            android:label="@string/title_activity_course_assessments"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.jln.wguprogresstracker.Activity.TermCourses"
+            android:label="@string/title_activity_term_courses"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.jln.wguprogresstracker.Activity.CourseNotes"
+            android:label="@string/title_activity_course_notes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.jln.wguprogresstracker.Activity.AddNoteActivity"
+            android:label="@string/title_activity_add_note"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        
+        <receiver android:name="com.jln.wguprogresstracker.AlarmHandler"/>
+    </application>
+
+</manifest>

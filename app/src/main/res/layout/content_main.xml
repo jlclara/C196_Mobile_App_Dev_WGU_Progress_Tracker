@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activity.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="122dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            app:srcCompat="@drawable/ic_school_black_24dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="32dp"
+            android:text="Welcome!  View, add, edit, or delete data. "
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="For first-time users, adding data from top to bottom is suggested."
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/termBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="75dp"
+            android:layout_marginBottom="10dp"
+            android:onClick="onTermBtnClicked"
+            android:padding="20dp"
+            android:text="Terms"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/mentorBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="75dp"
+            android:layout_marginBottom="10dp"
+            android:onClick="onMentorBtnClicked"
+            android:padding="20dp"
+            android:text="Mentors"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/courseBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="75dp"
+            android:layout_marginBottom="10dp"
+            android:onClick="onCourseBtnClicked"
+            android:padding="20dp"
+            android:text="Courses"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/assessmentBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="75dp"
+            android:layout_marginBottom="10dp"
+            android:onClick="onAssessmentBtnClicked"
+            android:padding="20dp"
+            android:text="Assessments"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Version 2.0"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
