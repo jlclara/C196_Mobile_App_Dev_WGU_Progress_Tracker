@@ -38,8 +38,6 @@ import java.util.TimeZone;
 
 import static android.widget.TextView.BufferType.EDITABLE;
 
-//import com.thejenericwedding.thejenericwedding.AlarmHandler;
-
 public class AddAssessment extends AppCompatActivity implements View.OnClickListener{
 
     private DatabaseHelper myDb;
